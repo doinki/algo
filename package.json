@@ -1,0 +1,33 @@
+{
+  "author": {
+    "email": "doinki94@gmail.com",
+    "name": "doinki",
+    "url": "https://github.com/doinki"
+  },
+  "bugs": "https://github.com/doinki/algo/issues",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/doinki/algo#readme",
+  "license": "MIT",
+  "name": "algo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doinki/algo.git"
+  },
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "prepare:husky": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
